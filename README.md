@@ -4,7 +4,7 @@ CitrusBet is a prediction market platform built on Citrea Blokchain and employin
 
 ## Contract Address
 
-CitreaTestnet -
+CitreaTestnet - 0xC53536765Cd9d8f6E2d2d9Cf7168D419bd6F17B3
 
 ## Features
 
