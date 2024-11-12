@@ -49,6 +49,7 @@ function GetmarketList() {
     isSuccess,
     data: writeContractData,
     status,
+    error: ismyerror,
   } = useWriteContract(); // create market
   const [amount, setAmount] = useState("");
   const [aiQuestion, setAiQuestion] = useState<string | null>(null);
@@ -84,7 +85,7 @@ function GetmarketList() {
   console.log("writeContractData: ", writeContractData);
   console.log("status", status);
 
-  console.log("eror is", error);
+  console.log("eror is", ismyerror);
   if (loading) return <h3>Loading...</h3>;
   if (error) return <h3>Error :(</h3>;
 

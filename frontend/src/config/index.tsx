@@ -43,13 +43,7 @@ export const metadata = {
 };
 
 // Create wagmiConfig
-const chains = [
-  sepolia,
-  rootstockTestnet,
-  optimismSepolia,
-  arbitrumSepolia,
-  citrea,
-] as const;
+const chains = [citrea] as const;
 export const config = defaultWagmiConfig({
   chains,
   projectId,
