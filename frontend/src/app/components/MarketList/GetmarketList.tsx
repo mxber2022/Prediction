@@ -62,6 +62,9 @@ function GetmarketList() {
       amount: string,
       index: number
     ) => {
+      console.log("hello", marketId);
+      console.log("outcome", outcome);
+      console.log("index", index);
       try {
         await writeContract({
           abi,
@@ -81,6 +84,7 @@ function GetmarketList() {
   console.log("writeContractData: ", writeContractData);
   console.log("status", status);
 
+  console.log("eror is", error);
   if (loading) return <h3>Loading...</h3>;
   if (error) return <h3>Error :(</h3>;
 
