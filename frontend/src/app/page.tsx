@@ -11,14 +11,13 @@ import Leadership from "./components/Leadership/Leadership";
 export default function Home() {
   return (
     <>
-      <Nav/>
+      <Nav />
       <Createmarket />
       {/* <Tabs/> */}
       <GetmarketList />
-      <Header />
+      {/* <Header /> */}
       <Footer />
       {/* <TokenApprove/> */}
-  
     </>
   );
 }
