@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Live Demo
 
-Explore the live version of MetaPredict at: [https://meta-predict.vercel.app](https://meta-predict.vercel.app)
+Explore the live version of MetaPredict at:
 
 ## License
 
@@ -67,5 +67,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 For inquiries, please reach out to [mxber2022@gmail.com](mailto:mxber2022@gmail.com).
-
-Project Link: [https://github.com/mxber2022/MetaPredict](https://github.com/mxber2022/MetaPredictt)
