@@ -10,16 +10,14 @@ interface GetMarketStatusProps {
 }
 
 const GetMarketStatus: React.FC<GetMarketStatusProps> = ({ marketId }) => {
-  const { data, isError, isLoading, error } = useReadContract({
+  const { data, isError, isLoading } = useReadContract({
     abi,
     address: myconfig.CONTRACT_ADDRESS_CITREA as Address,
     functionName: "getMarketDetails",
     args: [marketId],
-    chainId: 421614,
-    // config: config_wormhole,
   });
 
-  console.log("error", error);
+  console.log("error", isError);
   if (isLoading) return <div>Loading...</div>;
   if (isError) return <div>Error loading market status</div>;
   console.log("data:", data);
