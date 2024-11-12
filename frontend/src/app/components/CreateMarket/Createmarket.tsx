@@ -47,26 +47,15 @@ function Createmarket() {
   //@ts-ignore
   const createMarket = async (event) => {
     event.preventDefault();
-    let sourceContractAdress;
-
-    if (client?.chain.id == 11155420) {
-      sourceContractAdress = myconfig.CONTRACT_ADDRESS_CITREA;
-    }
 
     writeContract({
       abi,
-      address: sourceContractAdress as Address,
-      functionName: "sendCrossChainGreeting", // createMarket
-      args: [
-        10003, // Target Chain
-        myconfig.CONTRACT_ADDRESS_CITREA as Address, // Target Address
-        question,
-        outcomes,
-        uri,
-      ],
-      value: BigInt("18000000000000000"),
+      address: myconfig.CONTRACT_ADDRESS_CITREA as Address,
+      functionName: "createMarket",
+      args: [question, outcomes, uri],
     });
   };
+
   console.log(error);
 
   return (
