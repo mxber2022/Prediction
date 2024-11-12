@@ -1,6 +1,6 @@
 # MetaPredict
 
-CitrusBet is a prediction market platform built using the Wormhole protocol and employing the parimutuel algorithm for accurate prediction outcomes. Users can participate in predicting various events across different blockchain networks, ensuring transparency and reliability through decentralized technology.
+CitrusBet is a prediction market platform built on Citrea Blokchain and employing the parimutuel algorithm for accurate prediction outcomes. Users can participate in predicting various events across different blockchain networks, ensuring transparency and reliability through decentralized technology.
 
 ## Contract Address
 
